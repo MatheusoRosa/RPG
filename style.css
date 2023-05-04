@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
+
+:root {
+    --corletra-principal:#607a59; 
+    --corletra-secundaria: #609966;
+    --corletra-terciaria: #7dc26a;
+    --fonte-principal: 'Montserrat alternates', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0 2rem;
+}
+
+body{
+    background-image: url(imagens/pergaminho.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+   
+   
+}
+
+.container {
+    margin: 0rem 10rem;
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    align-content: center;
+    text-align: center;
+}
+
+
+.cabecalho {
+    font-family: var(--fonte-principal) ;
+    color: var(--corletra-principal);
+    font-size: 1.5rem; 
+    font-weight: 800; 
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    text-decoration: none;
+    
+}
+
+.cabecalho__efeito:hover {
+        color: var(--corletra-terciaria);
+}
+
+.titulo {
+    font-family: var(--fonte-principal) ;
+    color: var(--corletra-secundaria);
+    font-size: 1.5rem; 
+    margin: 0rem 10rem;
+    display: flex;
+    align-content: center;
+    text-align: center;
+    padding: 2rem 0;
+} 
+
+.conteudo__texto {
+    font-family: var(--fonte-principal) ;
+    color: var(--corletra-principal);
+    font-size: 1.5rem;  
+    padding: 0 0 2rem 0; 
+}
+
+.imagem {
+        width: 20rem;
+          }
+
+.conteudo__apresentacao {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    text-align:start;
+    
+}
+
+
+.conteudo__links {
+    font-family: var(--fonte-principal) ;
+    color: var(--corletra-secundaria);
+    font-size: 1.5rem; 
+    margin: 0 25rem;
+    background-color: none; 
+    border: 2px solid var(--corletra-secundaria);
+    width: 10rem;
+    text-align: center;
+    border-radius: 8px;
+    font-weight: 600;
+    padding: 10.5px 0;
+    text-decoration: none;
+    display: block;
+    
+}
+
+.conteudo__links__efeito:hover {
+    background-color: var(--corletra-secundaria);
+    color: var(--corletra-terciaria);
+}
+
+
